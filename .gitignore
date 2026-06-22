@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+
+# Virtual environment
+.venv/
+
+# Environment variables (contains API keys)
+.env
+
+# Database
+data/*.db
+data/*.sqlite
+
+# Logs
+logs/*.log
+*.log
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
